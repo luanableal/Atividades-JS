@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ECECEC;
+    font-family: sans-serif, open-sans, arial;
+  }
+  
+  #container {
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% - 250px);
+    background: transparent;
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    zoom: 0.8;
+  }
+  #container #data {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px 0px 0px 0px;
+  }
+  #container #data label {
+    color: #8A8A8C;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    float: left;
+  }
+  #container #data label + input, #container #data label + select {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 300;
+  }
+ 
+  #container #data #calc {
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: #363636;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+  }
+  #container #data #calc:hover {
+    transform: translateY(-5px);
+  }
+  #container #decoration {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom, #76D2FF, #07E7D7);
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  #container #decoration img {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    transition: 0.5s ease;
+  }
+  #container #decoration img:hover {
+    transform: scale(2);
+  }
+
+  #calcResult{
+    text-align: center;
+  }

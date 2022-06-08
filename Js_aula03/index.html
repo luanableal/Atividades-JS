@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main id='container'>
+        <aside id='data'>
+            <label for='operations'>Selecione a operação</label>
+            <select id="operations" name='operations'>
+                <option disabled selected>- Selecione -</option>
+                <option value="sum">Soma</option>
+                <option value="min">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+            </select>
+
+            
+            <label for='element1'>Digite um número</label>
+            <input type='number' id='element1' />
+            <label for='element2'>Digite o segundo número</label>
+            <input type='number' id='element2' />
+            <input type="button" id="calc" value="Calcular">
+            <h2 id="calcResult"></h2>
+        </aside>
+        <aside id='decoration'>
+          <img src='https://images.vexels.com/media/users/3/205996/isolated/lists/81d3f60bca6d3b2cbef6ba1ff1e0b4f7-desenho-de-calculadora-fofo.png'>
+        </aside>
+    </main>
+  
+    <script rel="text/javascript" src="./index.js"></script>
+</body>
+</html>
