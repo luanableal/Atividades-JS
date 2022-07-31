@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(230, 228, 228);
+   
+}
+
+header{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#container{
+    width: 60vw;
+    margin-left: 25vw;
+    margin-top: 20%;
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding: 2vh;
+    height: 30vh;
+    
+}
+
+.inputs-decor{
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+
+
+/*tabela*/
+thead{
+    display:none;
+}
+
+/*modals*/
+.modal{
+    background-color: rgb(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal-content{
+    margin: 0 auto;
+    margin-top: 10%;
+    max-width: 800px;
+    background-color: #eee;
+    padding: 0;
+    box-shadow: 0 0 2px #fff;
+    text-align: center;
+}
+
+.modal-header, .modal-body, .modal-footer{
+    padding: 10px;
+}
+
+.modal-header{
+    background-color: gray;
+}
+
+#modal-prod-decor{
+    margin-left: 35%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn-decor{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 5px;
+    color: rgb(241, 240, 240);
+    font-weight: bold;
+    border-color:rgb(156, 156, 156);
+}
+
+#divTable{
+    background-color: white;
+    width: 60vw;
+    margin-left: 25vw;
+    border-radius: 0px 0px 5px 5px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding: 2vh;
+    height: 30vh;
+
+}
+
+/* table{
+    width: 60%;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+}
+
+thead{
+    border-color: grey;
+}
+
+
+td{
+    border-color: grey;
+}
+
+tr{
+    border-color: grey;
+} */
